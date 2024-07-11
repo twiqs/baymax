@@ -3,53 +3,52 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from 'react';
 
-
 export default function Header() {
-
   return (
     <header>
-      <div class="container container-header">
-        <div class="header flex">
-          <nav class="nav-main flex">
-            <ul class="nav-main__list nav-main__list_1 flex">
-              <li class="nav-main__item">
-                <Link class="nav-main__link nav-main__link_selected" href="#">Home</Link>
+      <div className="container container-header">
+        <div className="header flex">
+          <nav className="nav-main flex">
+            <ul className="nav-main__list nav-main__list_1 flex">
+              <li className="nav-main__item">
+                <Link className="nav-main__link nav-main__link_selected" href="/">Home</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">About</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/about">About</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Menu</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/menu">Menu</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Reservation</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/reservation">Reservation</Link>
               </li>
             </ul>
-            <div class="logo">
-        <Image className="header__logo" src={'/logo.PNG'} layout={'fill'} objectFit={'contain'} alt={'pizza'} />
-
-              
+            <div className="logo">
+              <Image 
+                className="header__logo" 
+                src="/logo.PNG" 
+                width={100} 
+                height={100} 
+                alt="pizza" 
+              />
             </div>
-
-            <ul class="nav-main__list  nav-main__list_2 flex">
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Songs</Link>
+            <ul className="nav-main__list  nav-main__list_2 flex">
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/songs">Songs</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Podcasts</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/podcasts">Podcasts</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Movie</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/movie">Movie</Link>
               </li>
-              <li class="nav-main__item">
-                <Link class="nav-main__link" href="#">Movie</Link>
+              <li className="nav-main__item">
+                <Link className="nav-main__link" href="/other">Other</Link>
               </li>
             </ul>
           </nav>
-
-          
         </div>
-        <div class="header__burger">
+        <div className="header__burger">
           <span></span>
         </div>
       </div>
