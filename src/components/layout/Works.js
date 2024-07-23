@@ -5,7 +5,7 @@ export default function Works() {
     return (
         <section class="works">
         <div class="container">
-            <h2 class="sec_tit works_tit">How it works</h2>
+            <h2 class="sec_tit works_tit">Наша миссия</h2>
             <p class="sec_p">Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque. Maecenas varius felis felis.</p>
             <div class="works_cards">
                 <div class="works_card">

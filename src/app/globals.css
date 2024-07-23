@@ -167,6 +167,7 @@ section {
   text-align: center;
   margin: 0 auto;
   color: #1B3764;
+  margin-bottom: 20px;
 }
 
 .color {
@@ -372,7 +373,7 @@ header {
 
 .main_tit {
   font-family: Righteous;
-  font-size: 72px;
+  font-size: 52px;
   line-height: 100%;
   margin-bottom: 25px;
   color: #F4F8FF;
@@ -411,14 +412,15 @@ header {
 }
 
 .main_robo {
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
   position: relative;
+  top: -60px;
 }
 
 .robo {
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
 }
 .animation-truck-car {
   animation: animationCar linear 2s;
