@@ -149,7 +149,8 @@ body {
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
-  padding: 0 105px;
+  padding: 0 45px; 
+  /* 105 */
 }
 
 .dn {
@@ -523,6 +524,8 @@ header {
   font-size: 20px;
   margin-bottom: 30px;
   color: #F0ECE8;
+  line-height: 100%;
+
 }
 
 
@@ -925,6 +928,99 @@ footer {
 .yellow{
 	overflow: hidden;
 	position: relative;
+}
+.image-vol{
+
+}
+.about-wrap{
+  background:  #F4F8FF;
+}
+.costumers {
+	background: #f9f9f7;
+}
+
+.costumer_card__1 .costumer_ic {
+	background-image: url(./../../public/org1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.costumer_card__2 .costumer_ic {
+	background-image: url(./../../public/f2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.costumer_card__3 .costumer_ic {
+	background-image: url(./../../public/f1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.costumer_ic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	background: #f3f3f0;
+	margin: 0 auto 15px;
+
+}
+
+.costumer_card {
+	background: #fff;
+	max-width: 400px;
+	padding: 40px 34px 32px;
+	border: 0px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+	transition: 0.5s;
+}
+
+.costumer_card:hover {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.costumer_status {
+	color: #757575;
+	text-align: center;
+	margin-bottom: 10px;
+	font-style: 12px;
+}
+.found-tit{
+  font-size: 50px;
+  margin: 60px;
+  text-align: center;
+  color: #fdc10b;
+}
+.founders-wrap{
+  margin-top: 40px;
+}
+
+.costumer_name {
+	color: #2c2f24;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	margin-bottom: 10px;
+}
+
+.costumer_review {
+	text-align: center;
+	font-size: 16px;
+}
+
+.costumer_txt {
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 @media (prefers-color-scheme: dark) {
